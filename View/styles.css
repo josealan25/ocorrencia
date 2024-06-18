@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2e7d32; /* Verde escuro */
+    margin-bottom: 20px;
+}
+
+.ocorrencia {
+    border: 1px solid #c5e1a5; /* Verde claro */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f1f8e9; /* Fundo verde claro */
+}
+
+.ocorrencia p {
+    margin: 5px 0;
+    color: #558b2f; /* Verde médio */
+}
+
+.ocorrencia strong {
+    display: inline-block;
+    width: 150px;
+    color: #33691e; /* Verde mais escuro */
+}
+
+/* Adicionando estilo aos botões */
+button {
+    padding: 10px;
+    background-color: #ffeb3b; /* Amarelo */
+    color: #33691e; /* Verde escuro */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fdd835; /* Amarelo mais escuro */
+}
+
+/* Estilo para formulários */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #33691e; /* Verde escuro */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c5e1a5; /* Verde claro */
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #558b2f; /* Verde médio */
+}
+
+/* Adicionando estilo a links */
+a {
+    color: #2e7d32; /* Verde escuro */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1b5e20; /* Verde mais escuro */
+}
